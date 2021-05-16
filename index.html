@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Keerti Lata</title>
+
+<link rel="icon" href="favicon.ico">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #c6ffc1;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtZXJhfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  border: none;
+
+}
+
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #f55c47;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  text-align: center;
+}
+h3 {
+  color: #aa2ee6;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+}
+h4{
+  color: #325288;
+  text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar a.right {
+  float: right;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  border: none;
+  text-align: center;
+}
+
+
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+body {
+  font-family: Arial;
+}
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: black;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ul {
+  list-style: none;
+  display: inline-block;
+  width: 33%;
+  padding: 0;
+  text-align: center;
+  border: none;
+}
+
+
+.middle-container{
+        display: grid;
+        /* grid-template-columns: 300px 100px 100px; */
+        /* grid-template-columns: 300px auto 100px; */
+        /* grid-template-columns: 1fr 4fr 1fr; */
+        grid-template-columns: 28% 28% 28% ;
+        grid-auto-flow: row;
+        margin: auto;
+        grid-gap: 2rem;
+        border: none;
+        margin-left: 120px;
+        padding-right: 5px;
+
+
+
+
+    }
+    .item{
+        /* height: 100px;
+        width: 100px; */
+        background-color: red;
+        border: none;
+        padding: none;
+    }
+.col{
+  border: none;
+    margin-right: 0px;
+
+}
+.boxed{
+  height: 80px;
+}
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+
+</style>
+</head>
+<body>
+
+
+    <div class="navbar">
+
+      <a href="#"><font color="#511281">   About Me </font></a>
+      <a href="#"><font color="#511281"> Contact Me </font></a>
+      <a href="#"> <font color="#511281"> Address</font></a>
+      <a href="#" class="right"> <font color="#511281">Keerti Lata </font></a>
+      <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+  <input type="text" placeholder="Search.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+  	<img class="logo-footer" src="images/655193e109e547f392709e898ec9f578.png">
+  </div>
+
+  <div class="header">
+  <h1><font color="#f21170"><strong> <span class="photography">Photography</span> is Love</strong></font></h1>
+  <h2> <font color="#f21170">I Love capturing what I see.</font></h2>
+</div>
+<div class="general-info">
+  <ul>
+    <li><h3><font color="#325288">Nature Photography </font><h3></li>
+    <li><a href="https://en.wikipedia.org/wiki/Nature_photography">Click here to see</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Nature_photography">Click here to see</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Nature_photography">Click here to see</a></li>
+  </ul>
+  <ul>
+    <li><h3><font color="#325288">Product Photography</font><h3></li>
+    <li><a href="https://expertphotography.com/types-of-product-photography/">Click here to see</a></li>
+    <li><a href="https://expertphotography.com/types-of-product-photography/">Click here to see</a></li>
+      <li><a href="https://expertphotography.com/types-of-product-photography/">Click here to see</a></li>
+  </ul>
+  <ul>
+    <li><h3><font color="#325288">Sports Photography</font><h3></li>
+    <li><a href="https://en.wikipedia.org/wiki/Sports_photography">Click here to see</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Sports_photography">Click here to see</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Sports_photography">Click here to see</a></li>
+  </ul>
+</div>
+<div class="boxed" style="margin-top:50px;">
+    <h2><strong> Welcome to the world of Photography</strong></h2>
+</div>
+<div class="middle-container" style="margin-top:40px; padding:15px;">
+
+    <div class="col"style= "padding:15px;">
+      <img src="https://i.pinimg.com/736x/46/f0/25/46f0258485e3b54ad7746f8edcc1ec80.jpg" alt="Flower" style="width:100%">
+      <h3>Nature Photography</h3>
+      <h4>Nature</h4>
+        <h4>Nature</h4>
+    </div>
+    <div class="col"style= "padding:15px;">
+      <img src="https://i.pinimg.com/736x/46/f0/25/46f0258485e3b54ad7746f8edcc1ec80.jpg" alt="product" style="width:100%">
+        <h3>Product Photography</h3>
+        <h4>Product</h4>
+          <h4>Product</h4>
+    </div>
+    <div class="col"style= "padding:15px;">
+      <img src="https://i.pinimg.com/736x/46/f0/25/46f0258485e3b54ad7746f8edcc1ec80.jpg" alt="cricket_ball" style="width:100%">
+           <h3>Sports Photography</h3>
+           <h4>Sports</h4>
+             <h4>Sports</h4>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="textwidget" style="display: flex;justify-content: space-between;width: 22%; margin-left: 1000px;margin-top: 50px;">
+
+
+<div><a href="https://in.linkedin.com/" rel="LinkedIn" ">
+<img title="Linkedin" src="https://i0.wp.com/acmnation.com/wp-content/uploads/2020/08/LinkedIn.png?resize=35%2C35&ssl=1" alt="Linkedin" width="35" height="35" data-recalc-dims="1" class="jetpack-lazy-image jetpack-lazy-image--handled" data-lazy-loaded="1"><noscript><img title="Linkedin" src="https://i0.wp.com/acmnation.com/wp-content/uploads/2020/08/LinkedIn.png?resize=35%2C35&ssl=1" alt="Linkedin" width="35" height="35" data-recalc-dims="1" /></noscript>
+</a>
+</div>
+
+<div><a href="https://in.pinterest.com/" rel="noreferrer" "><img title="Pinterest" src="https://i2.wp.com/acmnation.com/wp-content/uploads/2020/08/Pinterest.png?resize=35%2C35&ssl=1" alt="Pinterest" width="35" height="35" data-recalc-dims="1" class="jetpack-lazy-image jetpack-lazy-image--handled" data-lazy-loaded="1"><noscript><img title="Pinterest" src="https://i2.wp.com/acmnation.com/wp-content/uploads/2020/08/Pinterest.png?resize=35%2C35&ssl=1" alt="Pinterest" width="35" height="35" data-recalc-dims="1" /></noscript>
+</a>
+</div>
+
+<div><a href="https://www.twitter.com/" rel="noreferrer"><img title="Twitter" src="https://i2.wp.com/acmnation.com/wp-content/uploads/2020/08/Twitter.png?resize=35%2C35&ssl=1" alt="Twitter" width="35" height="35" data-recalc-dims="1" class="jetpack-lazy-image jetpack-lazy-image--handled" data-lazy-loaded="1"><noscript><img title="Twitter" src="https://i2.wp.com/acmnation.com/wp-content/uploads/2020/08/Twitter.png?resize=35%2C35&ssl=1" alt="Twitter" width="35" height="35" data-recalc-dims="1" /></noscript>
+</a>
+</div>
+
+<div><a href="https://www.facebook.com/" rel="noreferrer" ><img title="Facebook" src="https://i1.wp.com/acmnation.com/wp-content/uploads/2020/08/Facebook.png?resize=35%2C35&ssl=1" alt="Facebook" width="35" height="35" data-recalc-dims="1" class="jetpack-lazy-image jetpack-lazy-image--handled" data-lazy-loaded="1"><noscript><img title="Facebook" src="https://i1.wp.com/acmnation.com/wp-content/uploads/2020/08/Facebook.png?resize=35%2C35&ssl=1" alt="Facebook" width="35" height="35" data-recalc-dims="1" /></noscript>
+</a>
+</div>
+
+<div><a href="https://www.instagram.com/" rel="noreferrer" ><img title="Instagram" src="https://acmnation.com/wp-content/uploads/2020/08/Instagram.png?x59341" alt="Instagram" width="35" height="35" class="jetpack-lazy-image jetpack-lazy-image--handled" data-lazy-loaded="1"><noscript><img title="Instagram" src="https://acmnation.com/wp-content/uploads/2020/08/Instagram.png " alt="Instagram" width="35" height="35" /></noscript>
+</a>
+</div>
+
+</div>
+
+
+<!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6" style="width: 500px;">
+            <h6>About</h6>
+            <p class="text-justify">End of website <i> LOREM IPSUM </i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3"style="width:400px;"">
+            <h6> Categories</h6>
+            <ul class="footer-links">
+              <li><a href="">Nature</a></li>
+              <li><a href="">Sports</a></li>
+              <li><a href="">Product</a></li>
+              <li><a href="">Fashion</a></li>
+              <li><a href="">Wildlife</a></li>
+              <li><a href="">Potrait</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3" style="width:400px;">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="">About Us</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Address</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Sitemap</a></li>
+              <li><a href="">Feedback</a></li>
+            </ul>
+          </div>
+        </div>
+      <div class="col-xs-6 col-md-3" >
+        <form class="example" action="/action_page.php" style="margin:auto; max-width:274px">
+    <input type="text" placeholder="Search.." name="search2">
+    <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
